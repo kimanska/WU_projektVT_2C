@@ -27,7 +27,7 @@
     Målgruppen skulle  vara folk som är intresserade av astronomi på amatörnivå.
 
     <h2>2. Planering</h2>
-    Just nu tänker jag att hem ska förklara översiktligt om solsystemet. Dessutom ska det finnas en meny med åtminstone alla 8 planeter
+    Just nu tänker jag att startsidan ska förklara översiktligt om solsystemet. Dessutom ska det finnas en meny med åtminstone alla 8 planeter
     och eventuellt andra himlakroppar. Planeterna ska i så fall vara i en meny för sig själv så att man inte blandar ihop allt.
 
     <h3>2.1 Handskiss</h3>
@@ -38,6 +38,7 @@
     Första lektionen (v.4) tänkte jag åtminstone formulera en idé.
     Andra lektionen (v.5) tänker jag göra några skisser och tänka ut designen. Eventuellt även bestämma mängden fakta på varje sida. 
 
+    
     <table>
         <tr>
             <th>Vecka</th><th>På lektionen</th><th>Utanför lektionen</th>
@@ -59,7 +60,7 @@
             <td>5</td>
             <td>
             <!-- Vad görs på lektionen vecka 5? -->
-            Skissa
+            Skissa & eventuellt börja på startsidan
             </td>
             <td>
             <!-- Vad görs utanför lektionen vecka 5? -->
@@ -71,7 +72,7 @@
             <td>6</td>
             <td>
             <!-- Vad görs på lektionen vecka 6? -->
-            Eventuellt börja med startsidan.
+            Fortsättning
             </td>
             <td>
             <!-- Vad görs utanför lektionen vecka 6? -->
@@ -153,12 +154,27 @@
 
     <h3>Lektion vecka 5</h3>
     <!-- Fyll på med dokumentation här. -->
+    Under denna lektion gjorde jag en skiss på hur hemsidan skulle se ut på mobilen. 
+    Jag implementerade även en kollapsbar navmeny på vänster sida av hemsidan samt fixade header. Ett problem jag stötte på var att 
+    fixa så att navmenyn kom ut från vänstersida. Men efter drygt 10 minuter av att granska koden så löste det sig. Nu känns det som jag har en
+    grund till hemsidan. Dock har jag inte gjort startsidan än.
 
     <h3>Lektion vecka 6</h3>
     <!-- Fyll på med dokumentation här. -->
+    Under denna lektion började bygga på skelettet för startsidan. Dock när jag implementerade headern och navmenyn i 
+    den nya gridwrappern stötet jag på ett problem. Nu kommer inte den kollapsbara navmenyn vara längs botten på navblocket eftersom 
+    mängden information man har i ett annat block påverkar storleken på de andra blocken. Så jag måste hitta ett sätt att justera så att toppen 
+    av den kollapsbara navmenyn är rät längs botten på navblocket. Utöver detta stötte jag inte på några andra problem och så länge jag
+    kan lösa navmenyproblemet så kommer det vara möjligt att fylla startsidan med information och då börja arbetet på de övriga sidorna.
+    Jag kommer nästa lektion eller eventuellt hemma hitta ett sätt att lösa problemet. Ifall det inte blir möjligt får jag hitta ett annat sätt att 
+    implementera det kollapsbara navmenyn på.
 
     <h3>Lektion vecka 8</h3>
     <!-- Fyll på med dokumentation här. -->
+    På denna lektion så löste jag problemet jag stötte på förra lektionen. Lösningen som fungerade var att flytta ut Header och Nav elementen
+    ut ur Gridwrapper. På detta sätt blir det mycket lättare att reglera deras storlek så att de inte stretchar och har sig, då stannar även
+    den kollapsbara navmenyn på rätt ställe så att det inte ser skevt ut. Under denna lektionen bestämde jag mig även för att sidans färgteckning
+    ska bestå ut av mörkare nyanser av blått och svart med stjärnfärgad text (alltså gold). Nu behövs endast själva innehållet på sidan. 
 
     <h3>Lektion vecka 9</h3>
     <!-- Fyll på med dokumentation här. -->

@@ -3,3 +3,149 @@
     padding: 0px;
     box-sizing: border-box;
 }
+
+.Gridwrapper{
+    position: relative;
+    top: 15vh;
+    display: grid;
+    width: 100vw;
+    height:100vh;
+    grid-template-areas: 
+    "a1 a1 a1 a1"
+    "s1 s1 s1 s1"
+    "a2 a2 a2 a2"
+    "fo fo fo fo"
+    ;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: repeat(4, 1fr);
+    background: gold; 
+    row-gap: none;
+    grid-gap: 1px;
+}
+
+.Header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 15vh;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items:center ;
+    background-color: black;
+    font-family: sans-serif;    
+}
+
+.Titel{
+    color: gold;
+    position: absolute;
+    bottom: 15px;
+}
+
+h5{
+    color: gold;
+}
+
+.Nav{
+    position: fixed;
+    top: 15vh;
+    height: 0vh;
+    width: 100%;
+    left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: darkblue;
+    font-family: sans-serif;
+}
+
+.Article1{
+    grid-area: a1;
+    background: linear-gradient(to bottom, black 0%, darkblue 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Article2{
+    grid-area: a2;
+    background: linear-gradient(to bottom, darkblue 0%, black 100%);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Section1{
+    grid-area: s1;
+    background-color: darkblue;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    grid-area: fo;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    position: absolute;
+    left: -50vw;
+    top: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, black 0%, darkblue 50%, black 100%);
+    align-items: center;
+    width: 50vw;
+    transition: all 0.5s;
+}
+
+.navActive{
+    transform: translateX(50vw);
+}
+
+.navLinks li {
+    list-style: none;
+}
+
+.navLinks a {
+    color: gold;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.burger{
+    margin-left: 25px;
+    cursor: pointer ;
+    position: absolute;
+    align-items: center;
+    bottom: 20px;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    background-color: yellow;
+    margin: 5px;
+    border-radius: 10%;
+    transition: all 0s;
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
+}
