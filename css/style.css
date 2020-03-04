@@ -64,8 +64,16 @@ h5{
     color: gold;
 }
 
+h4{
+    color: gold;
+}
+
 h3{
     color:gold
+}
+
+h2{
+    color: gold;
 }
 
 .Nav{
@@ -97,10 +105,19 @@ h3{
     align-items: center;
 }
 
-.Section1{
+.Innergridwrapper{
     grid-area: s1;
     background-color: darkblue;
-    display:flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2px 
+}
+
+.Innerdiv{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
