@@ -8,7 +8,7 @@
     top: 15vh;
     display: grid;
     width: 100%;
-    height:100vh;
+    height:120vh;
     grid-template-areas:
     "a1"
     "s1"
@@ -116,7 +116,7 @@ h2{
 
 .Innergridwrapper{
     grid-area: s1;
-    background-color: darkblue;
+    background: linear-gradient(to bottom, darkblue 0%, black 100%);
     justify-content: center;
     align-items: center;
     display: grid;
@@ -146,7 +146,7 @@ footer{
     position: absolute;
     left: -50vw;
     top: 0;
-    height: 100vh;
+    height: 85vh;
     background: linear-gradient(to bottom, black 0%, darkblue 50%, black 100%);
     align-items: center;
     width: 50vw;
@@ -211,7 +211,7 @@ footer{
     margin-right: auto;
 }
 .img1-2{
-    width: 50%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -223,7 +223,7 @@ footer{
     margin-right: auto;
 }
 .img2-2{
-    width: 50%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -235,7 +235,7 @@ footer{
     margin-right: auto;
 }
 .img3-2{
-    width: 50%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -247,7 +247,7 @@ footer{
     margin-right: auto;
 }
 .img4-2{
-    width: 50%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -259,7 +259,7 @@ footer{
     margin-right: auto;
 }
 .img5-2{
-    width: 50%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -271,7 +271,7 @@ footer{
     margin-right: auto;
 }
 .img6-2{
-    width: 60%;
+    width: 40%;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -283,7 +283,7 @@ footer{
     margin-right: auto;
 }
 .img7-2{
-    width: 50%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto
@@ -295,14 +295,14 @@ footer{
     margin-right: auto;
 }
 .img8-2{
-    width: 50%;
+    width: 30%;
     display: block;
     margin-left: auto;
     margin-right: auto
 }
 
 .img9{
-    width: 50%;
+    width: 30%;
     display:block;
     margin-left: auto;
     margin-right: auto;
@@ -427,7 +427,7 @@ footer{
     .navLinks{
         display: flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: space-evenly;
         position: absolute;
         left: -30vw;
         top: 0;
