@@ -87,6 +87,7 @@ h6{
     color: gold;
 }
 
+
 .Nav{
     position: fixed;
     top: 15vh;
@@ -107,7 +108,17 @@ h6{
     align-items: center;
     flex-direction: column;
     font-family: sans-serif;   
-    text-align: center;
+}
+
+.Article1-2{
+    grid-area: a1;
+    background: linear-gradient(to bottom, black 0%, darkblue 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: sans-serif;  
+    text-align: center; 
 }
 
 .Article2{
